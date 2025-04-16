@@ -5,7 +5,7 @@ from telegram.ext import (Application, CallbackContext, CommandHandler,
                           ContextTypes, MessageHandler, filters)
 
 from config import config as cfg
-from config import log_writer
+from log_writer import log_writer
 
 GPT_BASE_URL = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
 
